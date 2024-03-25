@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script to generate an ssh private-public kery
+
+< /dev/zero ssh-keygen -t rsa -b 4096 -f ./school -N "betty"
